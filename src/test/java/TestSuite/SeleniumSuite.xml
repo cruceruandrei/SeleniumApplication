@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Selenium Suite" verbose="1" configfailurepolicy="continue" parallel="classes" thread-count="1">
+    <test name="Selenium Tests">
+        <classes>
+            <class name = "SeleniumTestCases.Selenium_Login_Account_Wrong_Password"/>
+            <class name = "SeleniumTestCases.Selenium_Login_Account_Wrong_Password_Three_Times"/>
+            <class name = "SeleniumTestCases.Selenium_Register_New_Valid_Account"/>
+            <class name = "SeleniumTestCases.Selenium_Register_New_Valid_Account_Invalid_Verification_Code"/>
+            <class name = "SeleniumTestCases.Selenium_Try_Register_Already_Existing_Account"/>
+            <class name = "SeleniumTestCases.Selenium_Register_New_Account_With_Invalid_Email"/>
+            <class name = "SeleniumTestCases.Selenium_Register_New_Account_With_Invalid_Password"/>
+        </classes>
+    </test>
+</suite>

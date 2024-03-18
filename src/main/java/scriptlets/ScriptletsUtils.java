@@ -82,7 +82,7 @@ public class ScriptletsUtils {
         CustomAssert.assertEquals(
                 driverUtils.getWebElementText(webElements.errorEmail),
                 WebElementsText.ALREADY_EXISTING_EMAIL.getWebElementsText(),
-                "Verifies that an email error is displayed"
+                "Verifies that a email error is displayed"
         );
     }
 
@@ -98,7 +98,7 @@ public class ScriptletsUtils {
         CustomAssert.assertEquals(
                 driverUtils.getWebElementText(webElements.errorEmail),
                 WebElementsText.INVALID_EMAIL.getWebElementsText(),
-                "Verifies that an email error is displayed"
+                "Verifies that a email error is displayed"
         );
     }
 
@@ -180,7 +180,7 @@ public class ScriptletsUtils {
         CustomAssert.assertEquals(
                 driverUtils.getWebElementText(webElements.errorPasswordLogin),
                 WebElementsText.ERROR_WRONG_PASSWORD.getWebElementsText(),
-                "Verifies that an password error is displayed"
+                "Verifies that a password error is displayed"
         );
     }
 
